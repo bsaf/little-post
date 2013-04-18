@@ -1,0 +1,6 @@
+# This sets local environment variables only.
+# Rename to .env and fill in varibles to use.
+# See README.md for more information.
+LP_DIRECT_PRINT_CODE=XXXX
+DASHBOARD_USERNAME=XXXX
+DASHBOARD_PASSWORD=XXXX

@@ -1,0 +1,14 @@
+body {
+  width: 900px;
+  margin: 40px auto 20px auto;
+  padding: 0 10px;
+  font-family: 'Source Sans Pro', Helvetica, Arial;
+  background-color: #eceef1;
+  color: #333;
+}
+
+a  { color: #2f79e7; text-decoration: none; }
+h1 { margin: 0 0 20px 0; }
+
+.site-container { background-color: white; padding: 20px; }
+.status-ok      { color: #26ae90; margin-right: 10px; }

@@ -1,0 +1,26 @@
+<html>
+  <%= erb :stationery_styles %>
+  <body>
+    <div class="container">
+      <div class="message">
+        <div class="subject">
+          <%= @subject %>
+        </div>
+        <div class="subject-divider"></div>
+        <%= @body.to_s.gsub(/\n/, "<br/>") %>
+      </div>
+      <div class="flap"></div>
+      <div class="envelope">
+        <div class="stamp"></div>
+        <div class="header">
+          <div class="header-intro">
+            A message from
+          </div>
+          <div class="header-from">
+            <%= @sender %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
